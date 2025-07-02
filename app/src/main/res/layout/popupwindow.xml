@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/popupLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/transparent"
+        android:padding="20dp"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coda"
+        android:text="Instructions"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/instructionsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coda"
+        android:text="Unlock Kali Linux mastery with our intuitive command guide app! Perfect for both seasoned pros and cybersecurity beginners.\n\n1. After selecting your desired command options, tap the submit button to execute the command effortlessly.\n2. Instantly view the output and descriptions in the designated output section, providing clarity on the command's execution.
+\n3. Clear selections and output with a single tap using the clear button, ensuring a clean and clutter-free interface for your next command."
+        android:textAlignment="center"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/light_navy"
+        android:fontFamily="@font/coda"
+        android:padding="10dp"
+        android:text="Close"
+        android:textColor="@color/white" />
+
+
+
+
+</LinearLayout>
